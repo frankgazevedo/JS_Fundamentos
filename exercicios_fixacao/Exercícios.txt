@@ -52,7 +52,7 @@ arredondamento pois esta nota resulta na reprovação do aluno. Por exemplo, a n
 seja, que evite a reprovação do aluno. No caso de a nota ser 38, o arredondamento é possível pois atingirá 40
 e o aluno será aprovado.
 
-10) ​Crie uma função que verifica se um número inteiro passado como parêmetro é divisível por 3 e retorne true
+10) ​Crie uma função que verifica se um número inteiro passado como parâmetro é divisível por 3 e retorne true
 ou false.
 
 11) ​As regras para o cálculo dos anos bissextos são as seguintes:

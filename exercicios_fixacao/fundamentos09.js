@@ -57,10 +57,10 @@ let arredondar = (nota) => {
         return nota
     }
 }
-classificaAluno(37)
-classificaAluno(100)
-classificaAluno(30)
-classificaAluno(38)
-classificaAluno(88)
-classificaAluno(61)
-classificaAluno(84)
+classificaAluno(37) // imprime 'reprovado'
+classificaAluno(100) // imprime '100'
+classificaAluno(30) // imprime 'reprovado'
+classificaAluno(38) // imprime '40'
+classificaAluno(88) // imprime '90'
+classificaAluno(61) // imprime '61'
+classificaAluno(84) // imprime '85'
