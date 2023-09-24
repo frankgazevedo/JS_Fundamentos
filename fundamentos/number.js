@@ -25,8 +25,9 @@ console.log(media.toString(16)) // media em representação String (hexadecimal)
 
 console.log("Number é: " + typeof Number) // Number é uma FUNÇÃO (tudo é função em JS)
 
-// Operações extranhas com Number
+// Operações estranhas com Number
 console.log(7 / 0 ) // retorna o tipo INFINITY (em outras linguagens, como C/C++ e Java, o resultado é NaN (Not a Number))
+console.log("10,2" / 2) // retorna NaN (Not a Number). O caracter ',' não é reconhecido como um Number
 console.log("10.2" / 2) // retorna o valor da divisão. JS consegue transformar a String "10.2" num Number
 console.log("Show" * 2 ) // retorna um NaN (Not a Number)
 console.log(0.1 + 0.7) // Não retorna o valor exato (0.8), em razão da especificação seguida por JS
